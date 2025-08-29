@@ -30,7 +30,7 @@ const projects = [
     {
      title: "To-Do-List App",
      image: img3 ,
-     tags: ["React JS", "CSS"],
+     tags: ["React JS", "Tailwind"],
      externalLink: "https://to-do-list-app-five-jet.vercel.app/",
       githublink: "https://github.com/AmanSingh007coder/TO-DO-LIST-APP"
 
@@ -48,7 +48,7 @@ const projects = [
     {
      title: "Stop Watch",
      image: img5 ,
-     tags: ["HTML", "CSS", "JS"],
+     tags: ["React JS", "Tailwind"],
      externalLink: "https://stop-watch-one-pi.vercel.app/",
       githublink: "https://github.com/AmanSingh007coder/Stop-Watch"
 
@@ -107,5 +107,6 @@ const projects = [
     </section>
   )
 }
+
 
 export default Work
