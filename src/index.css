@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  @apply text-white bg-gradient-to-br from-[#0a0f1f] via-[#141432] to-[#1a237e] m-0 p-0;
+}
