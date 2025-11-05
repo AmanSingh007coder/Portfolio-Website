@@ -50,7 +50,7 @@ function Heroes() {
     <>
       <section
         id="home"
-        className="relative flex flex-col-reverse md:flex-row items-center md:justify-between md:h-screen px-6 md:px-30 text-white overflow-hidden space-y-23 scroll-mt-20"
+        className="relative flex flex-col-reverse md:flex-row items-center md:justify-between md:h-screen px-6 md:px-30 text-white overflow-hidden space-y-23 scroll-mt-20 mt-20"
       >
         {/* Left Content */}
         <motion.div
@@ -58,7 +58,7 @@ function Heroes() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
           viewport={{ once: true }}
-          className="max-w-xl text-center md:text-left space-y-4 md:space-y-10"
+          className="max-w-2xl text-center md:text-left space-y-4 md:space-y-13"
         >
           <motion.h1
             initial={{ opacity: 0, y: -40 }}
@@ -94,7 +94,7 @@ function Heroes() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 1 }}
             viewport={{ once: true }}
-            className="text-gray-300 leading-relaxed py-2 md:py-0"
+            className="text-gray-300 leading-relaxed py-2 md:py-0 mb-9 md:mb-12"
           >
             I’m passionate about building dynamic and scalable web applications using React, TailwindCSS,
             JavaScript and the MERN stack. I love crafting intuitive user interfaces that blend performance with
@@ -125,7 +125,7 @@ function Heroes() {
           viewport={{ once: true }}
           className="relative mt-10 md:mt-0"
         >
-          <div className="w-64 h-64 md:w-130 md:h-130 rounded-full border-[6px] md:border-[8px] border-transparent bg-gradient-to-r from-blue-400 via-cyan-300 to-green-200 overflow-hidden shadow-[0_0_35px_rgba(0,255,180,0.4)] floating-img p-[3px]">
+          <div className="w-64 h-64 md:w-130 md:h-130 rounded-full border-[6px] md:border-[8px] border-transparent bg-gradient-to-r from-blue-400 via-cyan-300 to-green-200 overflow-hidden shadow-[0_0_45px_rgba(0,255,180,0.4)] floating-img p-[3px]">
             <img
               src={myimg}
               alt="Profile"

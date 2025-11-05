@@ -53,7 +53,7 @@ const Header = () => {
   return (
     <>
       <header className="sticky top-0 z-50">
-        <nav className="relative top-0 left-0 right-0 font-inter w-full z-50 backdrop-blur-md border-b border-white/10">
+        <nav className="fixed top-0 left-0 right-0 font-inter w-full z-50 backdrop-blur-md border-b border-white/10">
           <div className="container mx-auto px-5 flex justify-between items-center h-20 border-b-neutral-300">
             
             {/* Logo */}

@@ -7,7 +7,7 @@ const Education = () => {
     title: "Full Stack Developer",
     college: "DSCE",
     location: "Bangalore",
-    date: "2024 - Present",
+    date: "2024-Pre",
     description:
       "Currently pursuing my B.E. in Engineering, with a strong focus on full stack web development and building modern, responsive digital experiences.",
     skills: ["MongoDb", "Express", "NodeJs", "JavaScript", "React", "TailwindCSS"],
@@ -16,7 +16,7 @@ const Education = () => {
     title: "High School | C++",
     college: "Sri Chaitanya P.U College",
     location: "Ballari",
-    date: "2022 - 2024",
+    date: "2022-24",
     description:
       "Studied PCM (Physics, Chemistry, Mathematics) with programming in C++, building a foundation in problem-solving and Object Oriented Programming.",
     skills: ["C++", "OOP", "Data Structures"],
@@ -25,7 +25,7 @@ const Education = () => {
     title: "Primary School | Basics of Computers",
     college: "St Joseph's Boys High School",
     location: "Ballari",
-    date: "Till 2021",
+    date: "..2021",
     description:
       "Understood the Computer Sceince Field and was fascinated about the principles of how computer works.",
     skills: ["SQL", "Computer Basics"],
@@ -34,14 +34,14 @@ const Education = () => {
 
 
   return (
-     <section id="education" className="md:py-20 text-white md:px-20 px-4 scroll-mt-20 py-10">
+     <section id="education" className="md:py-20 text-white md:px-20 px-2 font-Inter scroll-mt-20 py-10">
       <div className="max-w-4xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold">
+          <h2 className="md:text-4xl text-3xl font-bold">
             Education <span className="bg-gradient-to-r from-blue-400 to-cyan-500 text-transparent bg-clip-text">& Experience</span>
           </h2>
-          <p className="text-gray-400 mt-2">
+          <p className="text-gray-400 text-sm md:text-lg mt-2">
             My journey through education and professional experiences that
             shaped my expertise in Web development
           </p>

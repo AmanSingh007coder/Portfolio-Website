@@ -74,7 +74,7 @@ const Academics = () => {
               ].map((item, i) => (
                 <motion.div
                   key={i}
-                  className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:scale-105 transition-transform"
+                  className="bg-[#17173e] backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:scale-105 transition-transform"
                   initial={{ opacity: 0, scale: 0.8 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.6, delay: i * 0.2 }}
@@ -84,7 +84,7 @@ const Academics = () => {
                     {item.title}
                   </h4>
                   <p className="text-gray-300 mt-2">
-                    GPA:{" "}
+                    GPA: {" "}
                     <span className="text-green-400 font-medium">
                       {item.gpa}
                     </span>

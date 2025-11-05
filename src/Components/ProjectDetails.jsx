@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
@@ -54,6 +55,10 @@ function ProjectDetails() {
       </div>
     );
   }
+
+   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="relative min-h-screen bg-gradient-to-b from-[#0b0b1d] via-[#0b0b1b] to-[#0c0c1f] text-white flex flex-col items-center py-24 px-6 overflow-hidden">
