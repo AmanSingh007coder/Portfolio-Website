@@ -43,7 +43,7 @@ const Work = () => {
               <div className="relative group rounded-xl transition-transform duration-300 hover:-translate-y-1 cursor-pointer h-full flex flex-col">
                 
                 {/* Gradient Hover Shadow */}
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-400 via-blue-300 to-teal-200 rounded-xl opacity-0 group-hover:opacity-100 blur-lg transition-opacity duration-500"></div>
+                <div className="absolute -inset-0 bg-gradient-to-r from-blue-400 via-blue-300 to-teal-200 rounded-xl opacity-0 group-hover:opacity-100 blur-lg transition-opacity duration-500"></div>
 
                 {/* Actual Card */}
                 <div className="relative bg-[#0f0f2b] rounded-xl border border-zinc-700 overflow-hidden shadow-lg flex flex-col justify-between h-full">

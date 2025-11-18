@@ -135,7 +135,7 @@ function Heroes() {
         </motion.div>
 
         {/* Floating Blobs */}
-        <div className="absolute top-0 left-0 w-full h-full -z-10 overflow-hidden">
+         <div className="absolute top-0 left-0 w-full h-full -z-10 overflow-hidden pointer-events-none">
           <div className="blob fixed top-0 right-1/3 w-40 h-50 bg-blue-900 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
           <div className="blob fixed top-1/2 left-1/3 w-40 h-50 bg-blue-900 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
           <div className="blob fixed bottom-0 left-0 w-40 h-50 bg-blue-900 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>

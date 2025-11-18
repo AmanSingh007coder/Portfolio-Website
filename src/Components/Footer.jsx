@@ -30,7 +30,7 @@ const Footer = () => {
            <h1 className='font-bold mb-2'>Socials</h1>
            <a href="https://github.com/AmanSingh007coder" target="_blank" rel="noopener noreferrer" className='text-zinc-400 hover:text-gray-300'>Github</a>
            <a href="https://www.linkedin.com/in/aman-kumar-singh-be/" target="_blank" rel="noopener noreferrer" className='text-zinc-400 hover:text-gray-300'>LinkedIn</a>
-           <a href="mailto:amansinghrajput1610@gmail.com" className='text-zinc-400 hover:text-gray-300'>E-mail</a>
+           <a href="mailto:amansinghrajput9005@gmail.com" className='text-zinc-400 hover:text-gray-300'>E-mail</a>
            <a href="https://www.instagram.com/itz_aman_rajput_007/" target="_blank" rel="noopener noreferrer" className='text-zinc-400 hover:text-gray-300'>Instagram</a>
            <a href="#" className='text-zinc-400 hover:text-gray-300'>Facebook</a>
         </div>

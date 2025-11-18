@@ -12,7 +12,7 @@ import Certificates from "./Components/Certificates";
 import Academics from "./Components/Academics";
 import Success from "./Components/Success";
 import CodeBackground from "./Components/CodeBackground";
-import ProjectDetails from "./Components/ProjectDetails"; // 👈 Added this import
+import ProjectDetails from "./Components/ProjectDetails";
 
 function App() {
   return (
