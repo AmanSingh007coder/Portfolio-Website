@@ -17,14 +17,14 @@ const snippets = [
   "let innovation = true;",
 ];
 
-const getRandomPosition = () => ({
-  top: `${Math.random() * 100}vh`,
-  left: `${Math.random() * 100}vw`,
+ const getRandomPosition = () => ({
+  top: `${Math.random() * 90}vh`,
+  left: `${Math.random() * 90}vw`,
 });
 
 const CodeBackground = () => {
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden">
+    <div className="fixed inset-0 -z-10 overflow-hidden px-4">
       {snippets.map((text, index) => {
         const { top, left } = getRandomPosition();
         const randomDelay = Math.random() * 5;
@@ -32,7 +32,7 @@ const CodeBackground = () => {
         return (
           <motion.span
             key={index}
-            className="absolute text-gray-500 font-cursive text-sm select-none"
+            className="absolute text-gray-500 font-cursive text-sm select-none max-w-[80vw] break-words overflow-hidden"
             style={{ top, left }}
             animate={{
               y: [0, -30, 0],
