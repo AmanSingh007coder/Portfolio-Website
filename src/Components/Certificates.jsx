@@ -52,6 +52,25 @@ const certificates = [
     date: "November 2024",
     link: "bytexync.pdf",
   },
+   {
+    college: "DSCE - Point Blank",
+    event: "Smart India Hackathon",
+    place: "Qualified in Internal Hackathon - Team Achievement",
+    placeColor: "text-yellow-400",
+    description:
+      "AI for Rockfall Detection and Prevention in Mining Regions using LSTM model.",
+    date: "Sept 2025",
+  },
+   {
+    college: "Acharya Institute of Technology",
+    event: "Tech Habba",
+    place: "Participants - Team Achievement",
+    placeColor: "text-orange-400",
+    description:
+      "AI + Blockchain platform that converts YouTube courses into verifiable credentials.",
+    date: "Nov 2025",
+    link: "techhabba.pdf",
+  },
 ];
 
 function Certificates() {

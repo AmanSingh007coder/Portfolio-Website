@@ -18,6 +18,8 @@ import node from "../Assets/nodejs.png";
 import express from "../Assets/express.png";
 import mongo from "../Assets/mongo.png";
 import powerbi from "../Assets/powerbi.png";
+import nextjs from "../Assets/next.png";
+import blockchain from "../Assets/blockchain.png";
 
 // Mapping stack name → icon
 const techIcons = {
@@ -39,6 +41,9 @@ const techIcons = {
   "Express JS": express,
   MongoDB: mongo,
   PowerBI: powerbi,
+  "Next JS": nextjs,
+  Next: nextjs,
+  Blockchain: blockchain,
 };
 
 function ProjectDetails() {

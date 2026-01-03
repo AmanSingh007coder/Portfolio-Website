@@ -1,9 +1,10 @@
 import img1 from "../Assets/Bizsite.png";
-import img2 from "../Assets/rockpaper.png";
+import img2 from "../Assets/Stone_Paper.png";
 import img3 from "../Assets/todo.png";
 import img4 from "../Assets/tictac.png";
 import img5 from "../Assets/stop.png";
 import imgZentry from "../Assets/Zentry.png";
+import imgNishtha from "../Assets/nishtha.png";
 
 const ProjectData = [
   {
@@ -123,6 +124,25 @@ const ProjectData = [
       "Rich text post creation (Tiptap) with image uploads (Cloudinary).",
       "Full community features: comments, post bookmarking, and full-text search.",
     ],
+  },
+    {
+    id: "nishtha-ai",
+    title: "Nishtha AI",
+    description:
+      "a application that takes you from YouTube videos to verifiable credentials using Gemini AI and Blockchain.",
+    image: imgNishtha, 
+    stack: ["Node JS", "Express JS", "MongoDB", "React JS", "Tailwind CSS", "Next JS", "Firebase", "Blockchain"],
+    github: "https://github.com/AmanSingh007coder/Nishtha-AI",
+    longDescription: "Nishtha AI is a complete, scalable, full-stack application built using the MERN stack (Next.js, MongoDB) and leveraging the power of Gemini AI and the Thirdweb SDK. Its core function is to solve the 'Trust Gap' in online education by transforming passive YouTube content into an active, verifiable learning path. The platform automatically segments videos into modules, enforces a strict, two-part AI assessment (code review and conceptual interview) at each checkpoint, and automatically mints a permanent, immutable Proof-of-Skill NFT for every successfully verified project. This system creates a decentralized and trustworthy record of the user's mastery.",
+    platform: "Vercel (Frontend), Render (Backend)",
+    features: [
+        "Full-stack MERN (Next.js) architecture with robust, scalable API routes.",
+        "Dynamic Course Planning: Gemini AI analyzes any YouTube video, ignores 'fluff,' and automatically generates a complete curriculum (modules, quizzes, and project briefs).",
+        "AI Code Verification (The 'AI Tech Lead'): Strictly reviews submitted GitHub code for quality and adherence to the brief.",
+        "AI Anti-Cheat (The 'AI Interviewer'): Asks targeted, code-specific questions to the user to prove genuine understanding, defeating AI copy-pasting.",
+        "Blockchain Integration: Automated minting of a 'Proof-of-Skill' NFT (ERC-721) to the user's wallet upon verification.",
+        "Living Resume: Dynamically pulls all verified project records (including the blockchain transaction hash) from MongoDB to generate an always up-to-date resume and shareable certificate."
+      ],
   },
 ];
 

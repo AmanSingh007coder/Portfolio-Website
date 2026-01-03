@@ -125,7 +125,7 @@ function Heroes() {
           viewport={{ once: true }}
           className="relative mt-10 md:mt-0"
         >
-          <div className="w-64 h-64 md:w-130 md:h-130 rounded-full border-[6px] md:border-[8px] border-transparent bg-gradient-to-r from-blue-400 via-cyan-300 to-green-200 overflow-hidden shadow-[0_0_45px_rgba(0,255,180,0.4)] floating-img p-[3px]">
+          <div className="w-64 h-64 md:w-130 md:h-130 rounded-full border-[6px] md:border-[8px] border-transparent bg-gradient-to-r from-blue-400 via-cyan-300 to-green-200 overflow-hidden shadow-[0_0_55px_rgba(0,255,180,0.4)] floating-img p-[3px]">
             <img
               src={myimg}
               alt="Profile"

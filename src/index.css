@@ -6,7 +6,7 @@ html{
 }
 
 body{
-  @apply text-white bg-gradient-to-br from-[#0a0f1f] via-[#141432] to-[#1a237e] m-0 p-0;
+  @apply text-white bg-gradient-to-br from-[#080b17] via-[rgb(15,15,41)] to-[#0d1038] m-0 p-0;
 }
 
 .clip-custom-shape {
@@ -24,3 +24,19 @@ html, body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+
+@keyframes breath {
+  0% { opacity: 0.18; transform: translateY(0px); }
+  50% { opacity: 0.32; transform: translateY(-6px); }
+  100% { opacity: 0.18; transform: translateY(0px); }
+}
+
+.animate-breath {
+  animation: breath 6s ease-in-out infinite;
+}
+
+.animate-breath-delayed {
+  animation: breath 7s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+

@@ -11,7 +11,6 @@ import Education from "./Components/Education";
 import Certificates from "./Components/Certificates";
 import Academics from "./Components/Academics";
 import Success from "./Components/Success";
-import CodeBackground from "./Components/CodeBackground";
 import ProjectDetails from "./Components/ProjectDetails";
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
             path="/"
             element={
               <>
-                <CodeBackground />
                 <Header />
                 <Heroes />
                 <About />
