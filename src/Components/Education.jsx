@@ -57,7 +57,7 @@ const Education = () => {
               </div>
 
               {/* Card */}
-              <div className="bg-[#0f0f2b] p-6 rounded-xl shadow-md">
+              <div className="bg-[#0f1622] p-6 rounded-xl shadow-md">
                 <div className="flex justify-between items-center mb-2">
                   <h3 className="text-xl font-semibold">{exp.title}</h3>
                   <span className="flex items-center text-sm text-yellow-400">
@@ -76,7 +76,7 @@ const Education = () => {
                   {exp.skills.map((skill, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1 text-sm bg-[#121238] rounded-lg border border-zinc-700"
+                      className="px-3 py-1 text-sm bg-[#141820] rounded-lg border border-zinc-700"
                     >
                       {skill}
                     </span>

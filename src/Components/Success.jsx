@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react";
 
 function Success() {
   return (
-    <div className="flex items-center justify-center h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
+    <div className="flex items-center justify-center h-screen bg-gradient-to-br from-[#080808] via-[#0d0f18] to-[#0a0d15] text-white">
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}

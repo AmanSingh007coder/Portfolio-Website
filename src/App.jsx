@@ -12,6 +12,7 @@ import Certificates from "./Components/Certificates";
 import Academics from "./Components/Academics";
 import Success from "./Components/Success";
 import ProjectDetails from "./Components/ProjectDetails";
+import Marquee from "./Components/MarqueeStrip"
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
                 <Certificates />
                 <Academics />
                 <Contact />
+                  <Marquee />
                 <Footer />
               </>
             }

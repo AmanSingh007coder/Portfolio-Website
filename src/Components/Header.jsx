@@ -53,7 +53,7 @@ const Header = () => {
   return (
     <>
       <header className="sticky top-0 z-50">
-        <nav className="fixed top-0 left-0 right-0 font-inter w-full z-50 backdrop-blur-md border-b border-white/10">
+        <nav className="fixed top-0 left-0 right-0 font-inter w-full z-50 backdrop-blur-md border-b border-white/10" style={{ width: '100vw' }}>
           <div className="container mx-auto px-5 flex justify-between items-center h-20 border-b-neutral-300">
             
             {/* Logo */}
@@ -66,7 +66,7 @@ const Header = () => {
             </div>
 
             {/* Desktop Navigation Tabs */}
-            <div className="hidden md:flex relative bg-[#0c0c27] rounded-xl p-1 border border-zinc-700">
+            <div className="hidden md:flex relative bg-[#0a0d15] rounded-xl p-1 border border-zinc-700">
               {/* Highlight Indicator */}
               <div
                 className="absolute top-1 bottom-1 left-0 bg-white rounded-lg transform transition-all duration-300"
@@ -101,7 +101,7 @@ const Header = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="flex justify-center items-center md:hidden px-2.5 py-1 bg-[#0a0a59] rounded-lg text-center border border-zinc-600">
+            <div className="flex justify-center items-center md:hidden px-2.5 py-1 bg-[#0a0d15] rounded-lg text-center border border-zinc-600">
               <button className="cursor-pointer" onClick={toggle}>
                 {draweropen ? '✖' : '☰'}
               </button>

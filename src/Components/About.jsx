@@ -14,7 +14,7 @@ const About = () => {
       </p>
 
       {/* Main Flex Layout */}
-      <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-8 md:gap-25 bg-[#0f0f2b] px-6 py-8 md:px-12 md:py-10 rounded-2xl shadow-[0_0_25px_-5px_rgba(0,0,0,0.4)]">
+      <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-8 md:gap-25 bg-[#0f1622] px-6 py-8 md:px-12 md:py-10 rounded-2xl shadow-[0_0_25px_-5px_rgba(0,0,0,0.4)]">
 
         {/* Left Image with Gradient Border */}
         <motion.div
@@ -24,7 +24,7 @@ const About = () => {
           className="relative group flex-shrink-0"
         >
           <div className="relative w-64 h-72 md:w-72 md:h-80 p-[3px] rounded-[1.75rem] bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 shadow-[0_0_40px_-10px_rgba(59,130,246,0.5)] group-hover:shadow-[0_0_45px_-5px_rgba(147,51,234,0.6)] transition-all duration-500">
-            <div className="w-full h-full bg-[#0c0c27] rounded-[1.5rem] overflow-hidden">
+            <div className="w-full h-full bg-[#0a0d15] rounded-[1.5rem] overflow-hidden">
               <img
                 src={clubImg}
                 alt="Technical Club"
@@ -95,7 +95,7 @@ const About = () => {
         initial={{ scale: 0.9, opacity: 0.25 }}
         animate={{ scale: [1, 1.2, 1], opacity: [0.25, 0.35, 0.25] }}
         transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
-        className="absolute bottom-0 right-0 w-80 md:w-96 h-80 md:h-96 bg-blue-700 rounded-full mix-blend-multiply filter blur-3xl opacity-40 pointer-events-none"
+        className="absolute bottom-0 right-0 w-40 md:w-64 lg:w-96 h-40 md:h-64 lg:h-96 bg-blue-700 rounded-full mix-blend-multiply filter blur-3xl opacity-40 pointer-events-none"
       />
     </main>
   );

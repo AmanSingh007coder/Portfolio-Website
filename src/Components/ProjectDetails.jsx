@@ -66,7 +66,7 @@ function ProjectDetails() {
   }, []);
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-[#0b0b1d] via-[#0b0b1b] to-[#0c0c1f] text-white flex flex-col items-center py-24 px-6 overflow-hidden">
+    <div className="relative min-h-screen bg-gradient-to-b from-[#080808] via-[#0a0d15] to-[#0f1622] text-white flex flex-col items-center py-24 px-6 overflow-hidden">
       {/* Back Button */}
       <div className="mb-10 rounded-3xl py-2 px-4 bg-gradient-to-r from-blue-500 to-cyan-600 
        hover:from-blue-600 hover:to-blue-600 text-white transition cursor-pointer shadow-md">
@@ -152,7 +152,7 @@ function ProjectDetails() {
           {project.stack.map((tech, index) => (
             <div
               key={index}
-              className="flex items-center gap-2 px-5 py-2 bg-[#14142b] rounded-full border border-gray-700 text-sm md:text-base hover:bg-[#1b1b3a] transition-all duration-300 shadow-md"
+              className="flex items-center gap-2 px-5 py-2 bg-[#141820] rounded-full border border-gray-700 text-sm md:text-base hover:bg-[#1a1f2e] transition-all duration-300 shadow-md"
             >
               {techIcons[tech] && (
                 <img
@@ -222,8 +222,8 @@ function ProjectDetails() {
         transition={{ delay: 1 }}
         className="absolute inset-0 -z-10"
       >
-        <div className="w-[400px] h-[400px] bg-cyan-500 blur-3xl rounded-full absolute top-20 left-1/4 opacity-20 animate-pulse"></div>
-        <div className="w-[350px] h-[350px] bg-purple-600 blur-3xl rounded-full absolute bottom-10 right-1/4 opacity-20 animate-pulse"></div>
+        <div className="w-[250px] md:w-[400px] h-[250px] md:h-[400px] bg-cyan-500 blur-3xl rounded-full absolute top-20 left-1/4 opacity-20 animate-pulse"></div>
+        <div className="w-[200px] md:w-[350px] h-[200px] md:h-[350px] bg-purple-600 blur-3xl rounded-full absolute bottom-10 right-1/4 opacity-20 animate-pulse"></div>
       </motion.div>
     </div>
   );
