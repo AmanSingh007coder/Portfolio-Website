@@ -70,7 +70,7 @@ function Heroes() {
     <>
       <section
         id="home"
-        className="relative flex flex-col-reverse md:flex-row items-center md:justify-between md:h-screen px-6 md:px-30 text-white overflow-hidden space-y-8 md:space-y-6 scroll-mt-20 mt-20"
+        className="relative flex flex-col-reverse md:flex-row items-center md:justify-between md:h-screen px-7 md:px-30 text-white overflow-hidden space-y-10 md:space-y-6 scroll-mt-20 md:mt-20 mt-30"
       >
         {/* Left Content */}
         <motion.div
@@ -188,7 +188,7 @@ function Heroes() {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
           viewport={{ once: true }}
-          className="relative mt-4 md:-mt-8 lg:-mt-16 flex items-center justify-center"
+          className="relative mb-10 md:-mt-8 lg:-mt-16 flex items-center justify-center"
         >
           {/* Orbit Container */}
           <div className="absolute inset-0 flex items-center justify-center">
@@ -248,8 +248,6 @@ function Heroes() {
 
 
       </section>
-
-      <hr className="border-t border-zinc-700 mx-auto w-3/4 md:mt-25" />
     </>
   );
 }

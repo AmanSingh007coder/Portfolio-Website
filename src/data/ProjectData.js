@@ -128,6 +128,11 @@ const ProjectData = [
     {
     id: "nishtha-ai",
     title: "Nishtha AI",
+      team: [
+    { name: "Aman Kumar Singh", role: "Full Stack Developer", github: "https://github.com/AmanSingh007coder" },
+    { name: "Dhruva K R",    role: "Python Developer",  github: "https://github.com/Dhruva-0812" },
+    { name: "Utsav Patel",    role: "Frontend Developer",        github: "https://github.com/UtsavCodes-UC" },
+  ],
     description:
       "a application that takes you from YouTube videos to verifiable credentials using Gemini AI and Blockchain.",
     image: imgNishtha, 

@@ -93,10 +93,10 @@ const Header = () => {
               <a
                 href="#contact"
                 onClick={(e) => handleNavClick(e, "Contact", "#contact")}
-                className="hidden md:flex justify-center items-center text-white bg-gradient-to-r from-blue-500 to-cyan-500 
-                hover:from-blue-600 hover:to-blue-800 px-4 py-2 rounded-md"
+                className="hidden md:flex justify-center items-center text-white bg-gradient-to-r from-blue-700 to-cyan-500 
+                hover:from-blue-600 hover:to-blue-800 px-4 py-2 rounded-3xl mr-5"
               >
-                Contact me
+                Connect With Me
               </a>
             </div>
 
