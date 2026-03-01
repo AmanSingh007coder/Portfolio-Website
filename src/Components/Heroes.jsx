@@ -70,7 +70,7 @@ function Heroes() {
     <>
       <section
         id="home"
-        className="relative flex flex-col-reverse md:flex-row items-center md:justify-between md:h-screen px-7 md:px-30 text-white overflow-hidden space-y-10 md:space-y-6 scroll-mt-20 md:mt-20 mt-30"
+        className="relative flex flex-col-reverse md:flex-row items-center md:justify-between md:h-screen px-7 md:px-30 text-white space-y-10 md:space-y-6 scroll-mt-20 md:mt-20 pt-36 md:pt-0"
       >
         {/* Left Content */}
         <motion.div
